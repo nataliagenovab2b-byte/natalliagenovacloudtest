@@ -34,11 +34,3 @@ if (cards.length && dotsContainer) {
   });
   renderCarousel();
 }
-
-const contactForm = document.querySelector('#contact-form');
-contactForm?.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const status = contactForm.querySelector('.form-status');
-  status.textContent = 'Спасибо. Запрос заполнен и готов к отправке после подключения почты или CRM.';
-  contactForm.reset();
-});
