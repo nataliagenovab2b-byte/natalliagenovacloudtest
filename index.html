@@ -8,20 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=20261021-1915" />
-    <script src="script.js?v=20261021-1915" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20261023-0050" />
+    <script src="script.js?v=20261022-2200" defer></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top">Наталья Генова</a>
+      <a class="brand" href="#top" aria-label="Наталья Генова — на главную"><img class="brand-logo" src="assets/natalia-genova-logo.png" alt="Natalia Genova Private Medical Guidance" /></a>
       <nav class="main-nav" aria-label="Основная навигация">
-        <a href="#needs">Когда нужна помощь</a><a href="#wellness">Wellness &amp; Longevity</a><a href="#formats">Форматы работы</a><a href="#about">Обо мне</a><a href="#cases">Истории</a><a href="#blog">Блог</a><a href="#contact">Контакт</a>
+        <a href="#needs">Помощь</a><a href="#wellness">Wellness</a><a class="is-active" href="#formats">Форматы</a><a href="#about">Обо мне</a><a href="#contact">Контакт</a>
       </nav>
-      <a class="button button-dark header-button" href="#contact">Обсудить ситуацию</a>
+      <a class="button magnetic-button whatsapp-button header-button" data-magnetic href="https://wa.me/491777868304" target="_blank" rel="noopener">Обсудить ситуацию</a>
     </header>
 
     <main id="top">
-      <section class="hero section-shell"><div class="hero-copy"><p class="eyebrow">PRIVATE MEDICAL GUIDANCE</p><h1>Ваш человек<br />в немецкой медицине</h1><p class="lead">Персональное медицинское сопровождение в Германии — от профилактики и диагностики до лечения и координации комплексных медицинских задач.</p><div class="button-row"><a class="button button-dark" href="#contact">Обсудить ситуацию</a><a class="button button-outline" href="#formats">Форматы работы</a></div></div><div class="photo-placeholder has-image hero-photo"><img src="assets/R6_N8843.jpg" alt="Наталья Генова в медицинском центре" /></div></section>
+      <section class="hero section-shell"><div class="hero-copy"><h1>Ваш человек<br />в немецкой медицине</h1><p class="lead">Персональное медицинское сопровождение в Германии — от профилактики и диагностики до лечения и координации комплексных медицинских задач.</p><div class="button-row"><a class="button button-dark" href="#contact">Обсудить ситуацию</a><a class="button button-outline" href="#formats">Форматы работы</a></div></div><div class="photo-placeholder has-image hero-photo"><img src="assets/R6_N8843.jpg" alt="Наталья Генова в медицинском центре" /></div></section>
 
       <section class="section-shell intro-section" id="why"><div class="section-heading"><p class="eyebrow">ПОЧЕМУ СО МНОЙ</p><h2>Личное участие<br />в каждом маршруте</h2></div><div class="why-grid"><article><h3>Персональный подход</h3><p>Вашу ситуацию разбираю индивидуально и работаю с вами лично.</p></article><article><h3>Знание системы</h3><p>Хорошо знаю, как устроена медицинская система Германии и как найти подходящий путь к нужным специалистам и клиникам.</p></article><article><h3>Веду процесс</h3><p>Координирую согласованные этапы и беру на себя организационные и практические вопросы по ходу сопровождения.</p></article></div><p class="privacy-note">Конфиденциальность и бережное отношение к личной и медицинской информации — обязательная часть моей работы.</p></section>
 
@@ -47,9 +47,11 @@
 
       <section class="section-band blog-section" id="blog"><div class="section-shell"><p class="eyebrow">БЛОГ</p><h2>О здоровье и медицинской системе Германии</h2><div class="blog-grid"><article><p class="card-kicker">ПРОФИЛАКТИКА</p><h3>Check-up в Германии: как выбрать программу, которая действительно подходит вам</h3><p>Профилактическое обследование имеет смысл тогда, когда программа соответствует конкретному человеку, его истории и задачам.</p><a class="text-link" href="#contact">Читать →</a></article><article><p class="card-kicker">SECOND OPINION</p><h3>Когда стоит получить второе мнение</h3><p>Второе мнение помогает получить независимую оценку ситуации и дополнительную информацию перед важным медицинским решением.</p><a class="text-link" href="#contact">Читать →</a></article><article><p class="card-kicker">ЛЕЧЕНИЕ</p><h3>Лечение в Германии: как устроен путь пациента</h3><p>Немецкая медицина предлагает много возможностей, но путь к нужному специалисту не всегда очевиден.</p><a class="text-link" href="#contact">Читать →</a></article></div></div></section>
 
-      <section class="contact" id="contact"><div class="section-shell contact-layout"><div class="contact-copy"><p class="eyebrow">КОНТАКТ</p><h2>Расскажите мне о вашей ситуации</h2><p>Опишите ваш запрос в WhatsApp. Я ознакомлюсь с ним, после чего мы обсудим возможный формат работы и следующие шаги.</p><p class="confidentiality">Личная и медицинская информация обрабатывается конфиденциально и используется только для работы с вашим запросом.</p></div><a class="button button-light contact-action" href="https://wa.me/491777868304" target="_blank" rel="noopener">Написать в WhatsApp →</a></div></section>
+      <section class="contact" id="contact"><div class="data-rain" aria-hidden="true"><canvas></canvas></div><div class="section-shell contact-layout"><div class="contact-copy"><p class="eyebrow">КОНТАКТ</p><h2>Расскажите мне о вашей ситуации</h2><p>Опишите ваш запрос в WhatsApp. Я ознакомлюсь с ним, после чего мы обсудим возможный формат работы и следующие шаги.</p><p class="confidentiality">Личная и медицинская информация обрабатывается конфиденциально и используется только для работы с вашим запросом.</p></div><a class="button magnetic-button whatsapp-button contact-action" data-magnetic href="https://wa.me/491777868304" target="_blank" rel="noopener">Написать в WhatsApp →</a></div></section>
     </main>
 
     <footer class="site-footer"><div class="section-shell footer-grid"><div><a class="footer-brand" href="#top">Наталья Генова</a><p>Ваш человек в немецкой медицине</p><p>Private Medical Guidance</p></div><div><p class="footer-label">Навигация</p><a href="#needs">Когда нужна помощь</a><a href="#wellness">Wellness &amp; Longevity</a><a href="#formats">Форматы работы</a><a href="#about">Обо мне</a><a href="#blog">Блог</a><a href="#contact">Контакт</a></div><div><p class="footer-label">Контакты</p><a href="https://wa.me/491777868304" target="_blank" rel="noopener">WhatsApp</a><a href="#contact">Instagram</a><a href="#contact">LinkedIn</a><a href="#contact">Impressum</a><a href="#contact">Datenschutz</a></div></div><div class="section-shell footer-bottom"><p>Услуги носят организационный и координационный характер. Медицинская диагностика, назначение лечения и медицинские решения осуществляются врачами и медицинскими учреждениями.</p><p>© 2026 Наталья Генова · Private Medical Guidance</p></div></footer>
+    <button class="back-to-top" type="button" aria-label="Подняться наверх">↑</button>
+    <aside class="cookie-banner" aria-label="Уведомление о cookies" hidden><div><p class="cookie-title">Мы используем cookies</p><p>Они помогают сайту работать корректно и запоминать ваш выбор.</p></div><div class="cookie-actions"><button class="cookie-button cookie-button-muted" type="button" data-cookie-dismiss="essential">Только необходимые</button><button class="cookie-button" type="button" data-cookie-dismiss="all">Принять</button></div></aside>
   </body>
 </html>
