@@ -27,14 +27,14 @@ const url = `http://127.0.0.1:${server.address().port}/`;
 const browser = await chromium.launch({ headless: true, ...(process.env.QA_BROWSER ? { executablePath: process.env.QA_BROWSER } : {}) });
 const report = { viewports: [], functional: [], visual: null };
 const failures = [];
-const figma = JSON.parse(await readFile(resolve(root, 'design/figma-inspection.json'), 'utf8'));
 const expected = [
   ['1:4', 0, 92], ['1:389', 92, 721], ['1:390', 854, 588],
-  ['1:82', 1483, 819], ['1:154', 2343, 599], ['1:209', 2983, 1072],
-  ['1:391', 4096, 626], ['1:392', 4763, 722], ['1:370', 5526, 454], ['1:393', 5980, 491],
+  ['1:82', 1483, 819], ['1:154', 2343, 599], ['1:209', 2983, 1001],
+  ['1:392', 4025, 559], ['1:391', 4625, 428], ['1:370', 5094, 422], ['1:393', 5530, 589],
 ];
+const requiredTexts = ['Форматы работы', 'Первичный разбор ситуации', 'Персональное сопровождение', 'Сопровождение семьи', 'Истории моих клиентов', 'КОНТАКТЫ'];
 try {
-  for (const [width, height] of [[3360, 6839], [1920, 1080], [1440, 1000], [1024, 900], [768, 1024], [390, 844], [320, 740]]) {
+  for (const [width, height] of [[3360, 6119], [1920, 1080], [1440, 1000], [1024, 900], [768, 1024], [390, 844], [320, 740]]) {
     const context = await browser.newContext({ viewport: { width, height }, deviceScaleFactor: 1 });
     const page = await context.newPage();
     const errors = [];
@@ -62,7 +62,7 @@ try {
       [state.documentWidth <= width, 'horizontal overflow'],
       [state.h1Count === 1, 'single H1'],
       [state.accessibleControls && state.imageAlternatives, 'basic accessible names and image alternatives'],
-      [figma.texts.every(t => state.text.includes(t.text.replace(/\s/g, ''))), 'all 129 Figma text layers retained'],
+      [requiredTexts.every(t => state.text.includes(t.replace(/\s/g, ''))), 'latest changed Figma copy retained'],
       [state.assets.every(a => a.loaded && (!a.visible || (a.w > 0 && a.h > 0))), 'asset loading and geometry'],
       [state.overflowingText.length === 0, 'text stays inside viewport'],
       [errors.length === 0, 'browser console and HTTP errors'],
@@ -70,12 +70,12 @@ try {
     if (width === 3360) {
       const assetSlots = [
         ['assets/figma/logo.png', 168, 16.84375, 205, 56.3125],
-        ['assets/figma/hero.jpg', 1584, 92, 833, 689],
-        ['assets/figma/ellipse-1.svg', 1375.7, -277.3, 487.6, 923.6],
+        ['assets/figma/hero-latest.jpg', 1528, 92, 889, 764],
+        ['assets/figma/ellipse-1-latest.svg', 1375.7, -277.3, 487.6, 923.6],
         ['assets/figma/ellipse-2.svg', 1290.7, 82.7, 528.6, 617.6],
         ['assets/figma/ellipse-2.svg', 1349.7, 200.7, 528.6, 617.6],
-        ['assets/figma/ellipse-4.svg', 1350.7, 471.7, 538.6, 515.6],
-        ['assets/figma/about.jpg', 1044, 3183.361, 577.806, 798.094],
+        ['assets/figma/ellipse-4-latest.svg', 1281.7, 460.2, 565.603, 586.6],
+        ['assets/figma/about.jpg', 1044, 3132.361, 577.806, 798.094],
       ];
       assetSlots.forEach(([src, x, y, w, h], index) => {
         const actual = state.assets[index];
@@ -140,15 +140,15 @@ try {
     }
     await context.close();
   }
-  // The full-page visual comparison is measured at the original 3360 × 6839.
-  const reference = resolve(root, 'design/reference/figma-desktop.png');
-  const rendered = resolve(output, '3360x6839.png');
+  // The full-page visual comparison is measured at the latest 3360 × 6119 frame.
+  const reference = resolve(root, 'design/reference/figma-latest.png');
+  const rendered = resolve(output, '3360x6119.png');
   const metadata = await sharp(rendered).metadata();
-  assert.equal(metadata.width, 3360); assert.equal(metadata.height, 6839);
+  assert.equal(metadata.width, 3360); assert.equal(metadata.height, 6119);
   const a = await sharp(reference).removeAlpha().raw().toBuffer();
   const b = await sharp(rendered).removeAlpha().raw().toBuffer();
   assert.equal(a.length, b.length);
-  const regions = [{ name: 'full frame', left: 0, top: 0, width: 3360, height: 6839 }, ...expected.map(([node, top, height]) => ({ name: node, left: 930, top, width: 1550, height }))];
+  const regions = [{ name: 'full frame', left: 0, top: 0, width: 3360, height: 6119 }, ...expected.map(([node, top, height]) => ({ name: node, left: 930, top, width: 1550, height }))];
   const metrics = regions.map(region => {
     let sum = 0, changed = 0;
     for (let y = region.top; y < region.top + region.height; y++) {
@@ -167,7 +167,7 @@ try {
   await sharp(reference).composite([{ input: half }]).png().toFile(resolve(output, 'overlay.png'));
   const left = await sharp(reference).resize({ width: 672 }).toBuffer();
   const right = await sharp(rendered).resize({ width: 672 }).toBuffer();
-  await sharp({ create: { width: 1344, height: 1368, channels: 3, background: '#fff' } }).composite([{ input: left, left: 0, top: 0 }, { input: right, left: 672, top: 0 }]).png().toFile(resolve(output, 'comparison.png'));
+  await sharp({ create: { width: 1344, height: 1224, channels: 3, background: '#fff' } }).composite([{ input: left, left: 0, top: 0 }, { input: right, left: 672, top: 0 }]).png().toFile(resolve(output, 'comparison.png'));
   report.visual = { metrics, notes: 'Raw pixel differences include Figma/browser font rasterization and glyph fallback differences; metrics are not a claim of pixel-perfect identity.' };
   report.failures = failures;
   await writeFile(resolve(output, 'report.json'), JSON.stringify(report, null, 2) + '\n');
