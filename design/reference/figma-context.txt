@@ -1,0 +1,939 @@
+const imgImageNataliaGenovaPrivateMedicalGuidance = "https://www.figma.com/api/mcp/asset/47026882-0a7a-456b-8c35-9404f250904a.png";
+const imgImage1 = "https://www.figma.com/api/mcp/asset/44c833f1-5a56-4ece-af6b-f12df7564ca9.png";
+const imgImage = "https://www.figma.com/api/mcp/asset/08b0afa1-02ad-4415-b963-f664fc1a65cb.png";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/2368fa22-60d3-4ee5-a563-f1c11f678148.svg";
+const imgEllipse2 = "https://www.figma.com/api/mcp/asset/d7c8eeba-e4f2-471b-a6bd-80e0664207b6.svg";
+const imgEllipse4 = "https://www.figma.com/api/mcp/asset/d9daa3e4-f70e-452b-8e88-b127bf5b7b49.svg";
+
+export default function Component() {
+  return (
+    <div className="bg-[#f5f4ef] content-stretch flex flex-col items-start relative size-full" data-node-id="1:2" data-name="Наталья Генова — Ваш человек в немецкой медицине">
+      <div className="content-stretch flex flex-col items-start relative shrink-0 w-[3360px]" data-node-id="1:3" data-name="Body">
+        <div className="backdrop-blur-[14px] bg-[#f5f4ef] border-[rgba(61,75,64,0.15)] border-b-2 border-solid content-stretch flex h-[92px] items-center justify-between min-h-[92px] overflow-clip px-[168px] relative shrink-0 w-full" data-node-id="1:4" data-name="Header">
+          <div className="absolute content-stretch flex items-center left-[168px] top-[16.84px]" data-node-id="1:5" data-name="Link - Наталья Генова — на главную">
+            <div className="h-[56.313px] relative shrink-0 w-[205px]" data-node-id="1:6" data-name="Image (Natalia Genova Private Medical Guidance)">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImageNataliaGenovaPrivateMedicalGuidance} />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative" data-node-id="1:22" data-name="Navigation - Основная навигация:align">
+            <div className="border-2 border-[#eee6db] border-solid content-stretch flex gap-[4px] items-start justify-center p-[6px] relative rounded-[28px] shadow-[0px_14px_22px_0px_rgba(66,52,33,0.11)] shrink-0" data-node-id="1:7" data-name="Navigation - Основная навигация">
+              <div aria-hidden className="absolute bg-[rgba(250,246,237,0.94)] inset-0 pointer-events-none rounded-[28px]" />
+              <div className="content-stretch flex flex-col items-start px-[17px] py-[11px] relative rounded-[18px] shrink-0" data-node-id="1:8" data-name="Link">
+                <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[18px] relative shrink-0 text-[#151515] text-[18px] whitespace-nowrap" data-node-id="1:9">
+                  Направления
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col items-start px-[17px] py-[11px] relative rounded-[18px] shrink-0" data-node-id="1:11" data-name="Link">
+                <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[18px] relative shrink-0 text-[#151515] text-[18px] whitespace-nowrap" data-node-id="1:12">
+                  Подход
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col items-start px-[17px] py-[11px] relative rounded-[18px] shrink-0" data-node-id="1:13" data-name="Link">
+                <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[18px] relative shrink-0 text-[#151515] text-[18px] whitespace-nowrap" data-node-id="1:14">
+                  Обо мне
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col items-start px-[17px] py-[11px] relative rounded-[18px] shrink-0" data-node-id="1:15" data-name="Link">
+                <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[18px] relative shrink-0 text-[#151515] text-[18px] whitespace-nowrap" data-node-id="1:16">
+                  Форматы
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col items-start px-[17px] py-[11px] relative rounded-[18px] shrink-0" data-node-id="1:17" data-name="Link">
+                <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[18px] relative shrink-0 text-[#151515] text-[18px] whitespace-nowrap" data-node-id="1:18">
+                  Связаться ↗
+                </p>
+              </div>
+              <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_7px_14px_0px_rgba(88,72,49,0.04),inset_0px_0.5px_0.5px_0px_rgba(255,255,255,0.92)]" />
+            </div>
+          </div>
+          <div className="absolute border-2 border-[rgba(0,0,0,0)] border-solid content-stretch drop-shadow-[0px_10px_10px_rgba(66,52,33,0.22)] flex h-[46px] items-center justify-center left-[2962.3px] min-h-[46px] px-[20px] rounded-[18px] top-[22px]" data-node-id="1:19" data-name="Link">
+            <div aria-hidden className="absolute bg-[#25d366] inset-0 pointer-events-none rounded-[18px]" />
+            <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[27px] relative shrink-0 text-[18px] text-white tracking-[-0.18px] whitespace-nowrap" data-node-id="1:20">
+              Обсудить ситуацию
+            </p>
+            <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0.5px_0.5px_0px_rgba(255,255,255,0.9)]" />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[41px] items-start relative shrink-0 w-full" data-node-id="1:23" data-name="Main Content">
+          <div className="h-[721px] relative shrink-0 w-full" data-node-id="1:389" data-name="Section:margin">
+            <div className="absolute h-[698px] left-[975px] top-0 w-[1410px]" data-node-id="1:24" data-name="Section">
+              <div className="absolute h-[689px] left-[609px] top-0 w-[833px]" data-node-id="5:170" data-name="image 1">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[100.02%] left-[-9.72%] max-w-none top-[-0.01%] w-[109.72%]" src={imgImage1} />
+                </div>
+              </div>
+              <div className="absolute h-[749px] left-[488px] top-[-282px] w-[313px]" data-node-id="5:169">
+                <div className="absolute inset-[-11.66%_-27.89%]">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+                </div>
+              </div>
+              <div className="absolute h-[443px] left-[403px] top-[78px] w-[354px]" data-node-id="5:174">
+                <div className="absolute inset-[-19.71%_-24.66%]">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                </div>
+              </div>
+              <div className="absolute h-[443px] left-[462px] top-[196px] w-[354px]" data-node-id="5:176">
+                <div className="absolute inset-[-19.71%_-24.66%]">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                </div>
+              </div>
+              <div className="absolute h-[341px] left-[463px] top-[467px] w-[364px]" data-node-id="5:178">
+                <div className="absolute inset-[-25.6%_-23.98%]">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse4} />
+                </div>
+              </div>
+              <div className="absolute h-[640px] left-0 top-0 w-[614.4px]" data-node-id="1:25" data-name="Container">
+                <div className="absolute h-[288.343px] left-0 top-[245.76px] w-[638.976px]" data-node-id="1:38" data-name="Paragraph:align">
+                  <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Raleway:Regular'] font-normal h-[29.136px] justify-center leading-[0] left-0 text-[#59625a] text-[32px] top-[143.67px] w-[602.807px]" data-node-id="1:30">
+                    <p className="leading-[50.636px] text-pretty">Персональное медицинское сопровождение в Германии — от профилактики и диагностики до лечения и координации комплексных медицинских задач.</p>
+                  </div>
+                </div>
+                <div className="absolute content-stretch flex flex-col h-[114px] items-start justify-end left-0 top-[534.1px]" data-node-id="1:40" data-name="Container:transform:align">
+                  <div className="content-stretch flex flex-col h-[76px] items-start relative shrink-0 w-[725.931px]" data-node-id="1:39" data-name="Container:transform">
+                    <div className="absolute content-stretch flex gap-[20.966px] h-[76px] items-start left-0 top-[28.83px] w-[725.931px]" data-node-id="1:32" data-name="Container">
+                      <div className="border-[#4d5248] border-[2.621px] border-solid content-stretch drop-shadow-[0px_13.103px_13.103px_rgba(53,70,58,0.5)] flex h-full items-center justify-center min-h-[67.87787628173828px] px-[36.69px] relative rounded-[23.586px] shrink-0" data-node-id="1:33" data-name="Link">
+                        <div aria-hidden className="absolute bg-[#4d5248] inset-0 pointer-events-none rounded-[23.586px]" />
+                        <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[35.379px] relative shrink-0 text-[#f8f7f2] text-[23.586px] tracking-[-0.2359px] whitespace-nowrap" data-node-id="1:34">
+                          Обсудить мою ситуацию ↗
+                        </p>
+                        <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0.655px_0.655px_0px_rgba(255,255,255,0.12)]" />
+                      </div>
+                      <div className="border-[#eee6db] border-[2.621px] border-solid content-stretch flex h-full items-center justify-center min-h-[67.87787628173828px] px-[36.69px] relative rounded-[23.586px] shadow-[0px_13.103px_26.207px_0px_rgba(66,52,33,0.22)] shrink-0" data-node-id="1:35" data-name="Link">
+                        <div aria-hidden className="absolute bg-[rgba(250,246,237,0.94)] inset-0 pointer-events-none rounded-[23.586px]" />
+                        <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[35.379px] relative shrink-0 text-[#31342e] text-[23.586px] tracking-[-0.2359px] whitespace-nowrap" data-node-id="1:36">
+                          Как я могу помочь
+                        </p>
+                        <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0.655px_0.655px_0px_rgba(255,255,255,0.9)]" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute content-stretch flex flex-col h-[180.224px] items-start left-0 pb-[24.576px] top-[65.54px] w-[751.616px]" data-node-id="1:26" data-name="Heading 1">
+                  <div className="[word-break:break-word] font-['Georgia:Regular'] leading-[0] not-italic relative shrink-0 text-[#31342e] text-[71.68px] tracking-[-2.1504px] whitespace-nowrap" data-node-id="1:27">
+                    <p className="leading-[77.414px] mb-0 text-balance">Ваш человек</p>
+                    <p className="leading-[77.414px] text-balance">в немецкой медицине</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white content-stretch flex flex-col h-[588px] items-center relative shrink-0 w-full" data-node-id="1:390" data-name="Section:margin">
+            <div className="content-stretch flex flex-col items-start pb-[82px] pt-[39px] relative shrink-0 w-[1400px]" data-node-id="1:44" data-name="Section">
+              <div className="h-[106px] relative shrink-0 w-full" data-node-id="1:45" data-name="Container">
+                <div className="absolute content-stretch flex flex-col h-[106px] items-start left-0 top-0 w-[665px]" data-node-id="1:46" data-name="Container">
+                  <div className="h-[27px] relative shrink-0 w-full" data-node-id="1:47" data-name="Paragraph" />
+                  <div className="content-stretch flex flex-col h-[81px] items-start pt-[20px] relative shrink-0 w-[665px]" data-node-id="1:50" data-name="Heading 2">
+                    <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[60.48px] not-italic relative shrink-0 text-[#31342e] text-[72px] text-balance tracking-[-1.12px] whitespace-nowrap" data-node-id="1:51">
+                      С чего можно начать
+                    </p>
+                  </div>
+                </div>
+                <div className="absolute content-stretch flex flex-col h-[78px] items-start left-[840px] max-w-[590px] top-[27px] w-[590px]" data-node-id="1:54" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#5d665e] text-[18px] text-pretty w-[590px]" data-node-id="1:55">
+                    Я помогаю собрать отдельные этапы в понятный процесс — от первого запроса до организации консультаций, обследований, лечения или профилактической программы.
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start pt-[38px] relative shrink-0 w-full" data-node-id="1:80" data-name="Container:margin">
+                <div className="gap-x-[28px] grid grid-cols-[___448px_448px_448px] grid-rows-[___114px_91px_91px] relative shrink-0 w-full" data-node-id="1:57" data-name="Container">
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-1 content-stretch flex flex-col items-start justify-self-stretch min-h-[91px] pb-[18px] pt-[16px] relative row-1 self-stretch shrink-0" data-node-id="1:58" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[26.1px] relative shrink-0 text-[#556057] text-[18px] text-pretty w-[448px]" data-node-id="1:59">
+                      Хотите заняться профилактикой, пройти check-up или подобрать индивидуальную программу обследований.
+                    </p>
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-2 content-stretch flex flex-col items-start justify-self-stretch min-h-[91px] pb-[18px] pt-[16px] relative row-1 self-stretch shrink-0" data-node-id="1:61" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[26.1px] relative shrink-0 text-[#556057] text-[18px] text-pretty w-[448px]" data-node-id="1:62">
+                      Не понимаете, с чего начать в медицинской ситуации.
+                    </p>
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-3 content-stretch flex flex-col items-start justify-self-stretch min-h-[91px] pb-[18px] pt-[16px] relative row-1 self-stretch shrink-0" data-node-id="1:63" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[26.1px] relative shrink-0 text-[#556057] text-[18px] text-pretty w-[448px]" data-node-id="1:64">
+                      Нужен подходящий специалист или клиника в Германии.
+                    </p>
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-1 content-stretch flex flex-col items-start justify-self-stretch min-h-[91px] pb-[18px] pt-[16px] relative row-2 self-stretch shrink-0" data-node-id="1:65" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[26.1px] relative shrink-0 text-[#556057] text-[18px] text-pretty whitespace-nowrap" data-node-id="1:66">
+                      Хотите получить второе медицинское мнение.
+                    </p>
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-2 content-stretch flex flex-col items-start justify-self-stretch min-h-[91px] pb-[18px] pt-[16px] relative row-2 self-stretch shrink-0" data-node-id="1:67" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[26.1px] relative shrink-0 text-[#556057] text-[18px] text-pretty w-[448px]" data-node-id="1:68">
+                      Предстоит диагностика, лечение или реабилитация.
+                    </p>
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-3 content-stretch flex flex-col items-start justify-self-stretch min-h-[91px] pb-[18px] pt-[16px] relative row-2 self-stretch shrink-0" data-node-id="1:69" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[26.1px] relative shrink-0 text-[#556057] text-[18px] text-pretty w-[448px]" data-node-id="1:70">
+                      Необходимо организовать несколько консультаций, обследований или этапов лечения.
+                    </p>
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-1 content-stretch flex flex-col items-start justify-self-stretch min-h-[91px] pb-[18px] pt-[16px] relative row-3 self-stretch shrink-0" data-node-id="1:71" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[26.1px] relative shrink-0 text-[#556057] text-[18px] text-pretty w-[448px]" data-node-id="1:72">
+                      Медицинские вопросы касаются нескольких членов семьи.
+                    </p>
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-2 content-stretch flex flex-col items-start justify-self-stretch min-h-[91px] pb-[18px] pt-[16px] relative row-3 self-stretch shrink-0" data-node-id="1:73" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[26.1px] relative shrink-0 text-[#556057] text-[18px] text-pretty w-[448px]" data-node-id="1:74">
+                      Живёте за пределами Германии и хотите организовать медицинскую помощь здесь.
+                    </p>
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-3 content-stretch flex flex-col items-start justify-self-stretch min-h-[91px] pb-[18px] pt-[16px] relative row-3 self-stretch shrink-0" data-node-id="1:75" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[26.1px] relative shrink-0 text-[#556057] text-[18px] text-pretty w-[448px]" data-node-id="1:76">
+                      Не хотите самостоятельно заниматься поиском, организацией и коммуникацией.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="h-[46px] relative shrink-0 w-full" data-node-id="1:81" data-name="Container">
+                <div className="absolute border-[#8d9a8e] border-b-2 border-solid h-[28px] left-0 top-[18px] w-[161.094px]" data-node-id="1:77" data-name="Link">
+                  <p className="[word-break:break-word] absolute font-['Raleway:SemiBold'] font-semibold leading-[27px] left-0 text-[#4d5248] text-[18px] top-[-1px] whitespace-nowrap" data-node-id="1:78">
+                    Найти решение ↗
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#696b5d] content-stretch flex flex-col h-[819px] items-start pb-[82px] pt-[58px] relative shrink-0 w-full" data-node-id="1:82" data-name="Section">
+            <div className="h-[690px] relative shrink-0 w-full" data-node-id="1:153" data-name="Container:margin">
+              <div className="absolute h-[734px] left-[980px] top-0 w-[1400px]" data-node-id="1:83" data-name="Container">
+                <div className="absolute h-[166px] left-0 right-0 top-[6px]" data-node-id="1:84" data-name="Container">
+                  <div className="absolute h-[166px] left-0 top-0 w-[665px]" data-node-id="1:85" data-name="Container">
+                    <div className="absolute h-[141px] left-0 top-[27px] w-[1699px]" data-node-id="1:88" data-name="Heading 2">
+                      <p className="[word-break:break-word] absolute font-['Georgia:Regular'] leading-[60.48px] left-0 not-italic text-[#eff8e3] text-[72px] text-balance top-[20px] tracking-[-1.12px] w-[1361px]" data-node-id="1:89">
+                        Личное участие в каждом маршруте
+                      </p>
+                    </div>
+                  </div>
+                  <div className="absolute content-stretch flex flex-col h-[26px] items-start left-0 max-w-[590px] top-[122px] w-[590px]" data-node-id="1:91" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#eaffed] text-[18px] text-pretty whitespace-nowrap" data-node-id="1:92">
+                      Вашу ситуацию разбираю индивидуально и работаю с вами лично.
+                    </p>
+                  </div>
+                </div>
+                <div className="absolute content-stretch flex flex-col items-start left-0 pt-[38px] right-0 top-[147px]" data-node-id="1:151" data-name="Container:margin">
+                  <div className="gap-x-[24px] gap-y-[24px] grid grid-cols-[___450.66px_450.66px_450.69px] grid-rows-[_224px] relative shrink-0 w-full" data-node-id="1:93" data-name="Container">
+                    <div className="border-2 border-[rgba(174,181,168,0.72)] border-solid col-1 content-stretch flex flex-col items-start justify-self-stretch min-h-[210px] overflow-clip pb-[30px] pt-[28px] px-[26px] relative rounded-[24px] row-1 self-stretch shadow-[0px_18px_30px_-22px_rgba(61,75,64,0.5)] shrink-0" data-node-id="1:94" data-name="Article">
+                      <div aria-hidden className="absolute bg-[rgba(250,249,243,0.78)] inset-0 pointer-events-none rounded-[24px]" />
+                      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:96" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[29.133px] not-italic relative shrink-0 text-[#31342e] text-[25.333px] text-balance whitespace-nowrap" data-node-id="1:97">
+                          Персональный подход
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start pt-[14px] relative shrink-0 w-[394.656px]" data-node-id="1:99" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[30.933px] relative shrink-0 text-[#5d665e] text-[21.333px] text-pretty w-[395px]" data-node-id="1:100">
+                          Вашу ситуацию разбираю индивидуально и работаю с вами лично.
+                        </p>
+                      </div>
+                      <div className="absolute bg-gradient-to-b from-[#d9b98f] h-[123.25px] left-0 opacity-72 rounded-br-[4px] rounded-tr-[4px] to-[#a59ab8] top-[48.38px] via-[#b8c7a9] via-[52%] w-[3px]" data-node-id="1:95" data-name="Text" />
+                      <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0.5px_0.5px_0px_rgba(255,255,255,0.95)]" />
+                    </div>
+                    <div className="border-2 border-[rgba(174,181,168,0.72)] border-solid col-2 content-stretch flex flex-col items-start justify-self-stretch min-h-[210px] overflow-clip pb-[30px] pt-[28px] px-[26px] relative rounded-[24px] row-1 self-stretch shadow-[0px_18px_30px_-22px_rgba(61,75,64,0.5)] shrink-0" data-node-id="1:103" data-name="Article">
+                      <div aria-hidden className="absolute bg-[rgba(250,249,243,0.78)] inset-0 pointer-events-none rounded-[24px]" />
+                      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:105" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[29.133px] not-italic relative shrink-0 text-[#31342e] text-[25.333px] text-balance whitespace-nowrap" data-node-id="1:106">
+                          Знание системы
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start pt-[14px] relative shrink-0 w-[394.656px]" data-node-id="1:107" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[30.933px] relative shrink-0 text-[#5d665e] text-[21.333px] text-pretty w-[395px]" data-node-id="1:108">
+                          Хорошо знаю, как устроена медицинская система Германии и как найти подходящий путь к нужным специалистам и клиникам.
+                        </p>
+                      </div>
+                      <div className="absolute bg-gradient-to-b from-[#d9b98f] h-[123.25px] left-0 opacity-72 rounded-br-[4px] rounded-tr-[4px] to-[#a59ab8] top-[48.38px] via-[#b8c7a9] via-[52%] w-[3px]" data-node-id="1:104" data-name="Text" />
+                      <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0.5px_0.5px_0px_rgba(255,255,255,0.95)]" />
+                    </div>
+                    <div className="border-2 border-[rgba(174,181,168,0.72)] border-solid col-3 content-stretch flex flex-col items-start justify-self-stretch min-h-[210px] overflow-clip pb-[30px] pt-[28px] px-[26px] relative rounded-[24px] row-1 self-stretch shadow-[0px_18px_30px_-22px_rgba(61,75,64,0.5)] shrink-0" data-node-id="1:110" data-name="Article">
+                      <div aria-hidden className="absolute bg-[rgba(250,249,243,0.78)] inset-0 pointer-events-none rounded-[24px]" />
+                      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:112" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[29.133px] not-italic relative shrink-0 text-[#31342e] text-[25.333px] text-balance whitespace-nowrap" data-node-id="1:113">
+                          Веду процесс
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start pt-[14px] relative shrink-0 w-[394.688px]" data-node-id="1:114" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[30.933px] relative shrink-0 text-[#5d665e] text-[21.333px] text-pretty w-[395px]" data-node-id="1:115">
+                          Координирую согласованные этапы и беру на себя организационные и практические вопросы по ходу сопровождения.
+                        </p>
+                      </div>
+                      <div className="absolute bg-gradient-to-b from-[#d9b98f] h-[123.25px] left-0 opacity-72 rounded-br-[4px] rounded-tr-[4px] to-[#a59ab8] top-[48.38px] via-[#b8c7a9] via-[52%] w-[3px]" data-node-id="1:111" data-name="Text" />
+                      <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0.5px_0.5px_0px_rgba(255,255,255,0.95)]" />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute gap-x-[20px] gap-y-[20px] grid-cols-[_____264px_264px_264px_264px_264px] grid-rows-[_200px] h-[200px] inline-grid left-0 right-0 top-[446px]" data-node-id="1:117" data-name="Container">
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-2 h-[200px] min-h-[155px] relative row-1 shrink-0 w-[264px]" data-node-id="1:125" data-name="Article">
+                    <div className="absolute h-[62px] left-0 right-0 top-[15px]" data-node-id="1:126" data-name="Heading 3">
+                      <p className="[word-break:break-word] absolute font-['Georgia:Regular'] leading-[20.7px] left-0 not-italic text-[22px] text-balance text-white top-0 whitespace-nowrap" data-node-id="1:127">
+                        Индивидуальный план
+                      </p>
+                    </div>
+                    <div className="absolute content-stretch flex flex-col h-[93px] items-start left-0 pt-[11px] right-0 top-[56px]" data-node-id="1:128" data-name="Paragraph">
+                      <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[18px] text-pretty text-white w-[264px]" data-node-id="1:129">
+                        У вас есть понятный маршрут вместо хаотичного поиска и несвязанных действий.
+                      </p>
+                    </div>
+                    <div className="absolute h-[13px] left-0 top-[46px] w-[231px]" data-node-id="5:160" style={{ backgroundImage: "linear-gradient(90deg, rgb(191, 225, 156) 0%, rgba(184, 199, 169, 0.65) 8.1731%, rgba(115, 115, 115, 0.27) 57.212%, rgba(115, 115, 115, 0) 100%)" }} />
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-3 h-[200px] min-h-[155px] relative row-1 shrink-0 w-[264px]" data-node-id="1:131" data-name="Article">
+                    <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-[15px]" data-node-id="1:132" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[20.7px] not-italic relative shrink-0 text-[22px] text-balance text-white w-[264px]" data-node-id="1:133">
+                        Целостность
+                      </p>
+                    </div>
+                    <div className="absolute content-stretch flex flex-col items-start left-0 pt-[11px] right-0 top-[57px]" data-node-id="1:134" data-name="Paragraph">
+                      <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[18px] text-pretty text-white w-[264px]" data-node-id="1:135">
+                        Вам не приходится каждый раз начинать сначала: я знаю контекст вашей ситуации и веду процесс дальше.
+                      </p>
+                    </div>
+                    <div className="absolute h-[13px] left-0 top-[46px] w-[231px]" data-node-id="5:166" style={{ backgroundImage: "linear-gradient(90deg, rgb(191, 225, 156) 0%, rgba(184, 199, 169, 0.65) 8.1731%, rgba(115, 115, 115, 0.27) 57.212%, rgba(115, 115, 115, 0) 100%)" }} />
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-4 h-[200px] min-h-[155px] relative row-1 shrink-0 w-[264px]" data-node-id="1:137" data-name="Article">
+                    <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-[17px]" data-node-id="1:138" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[20.7px] not-italic relative shrink-0 text-[22px] text-balance text-white whitespace-nowrap" data-node-id="1:139">
+                        Экономия времени
+                      </p>
+                    </div>
+                    <div className="absolute h-[119px] left-0 right-0 top-[57px]" data-node-id="1:140" data-name="Paragraph">
+                      <p className="[word-break:break-word] absolute font-['Raleway:Regular'] font-normal leading-[27px] left-0 text-[18px] text-pretty text-white top-[11px] w-[264px]" data-node-id="1:141">
+                        Большая часть организационной и операционной работы остаётся за кадром.
+                      </p>
+                    </div>
+                    <div className="absolute h-[13px] left-0 top-[46px] w-[231px]" data-node-id="5:162" style={{ backgroundImage: "linear-gradient(90deg, rgb(191, 225, 156) 0%, rgba(184, 199, 169, 0.65) 8.1731%, rgba(115, 115, 115, 0.27) 57.212%, rgba(115, 115, 115, 0) 100%)" }} />
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-5 h-[200px] min-h-[155px] relative row-1 shrink-0 w-[264px]" data-node-id="1:143" data-name="Article">
+                    <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-[15px]" data-node-id="1:144" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[20.7px] not-italic relative shrink-0 text-[22px] text-balance text-white whitespace-nowrap" data-node-id="1:145">
+                        Спокойствие
+                      </p>
+                    </div>
+                    <div className="absolute content-stretch flex flex-col items-start left-0 pt-[11px] right-0 top-[55px]" data-node-id="1:146" data-name="Paragraph">
+                      <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[18px] text-pretty text-white w-[264px]" data-node-id="1:147">
+                        Вы понимаете, что происходит сейчас, что будет дальше и к кому обратиться с вопросом.
+                      </p>
+                    </div>
+                    <div className="absolute h-[13px] left-0 top-[46px] w-[231px]" data-node-id="5:164" style={{ backgroundImage: "linear-gradient(90deg, rgb(191, 225, 156) 0%, rgba(184, 199, 169, 0.65) 8.1731%, rgba(115, 115, 115, 0.27) 57.212%, rgba(115, 115, 115, 0) 100%)" }} />
+                  </div>
+                  <div className="border-[#c5c7bd] border-solid border-t-2 col-1 h-[200px] justify-self-start min-h-[155px] relative row-1 shrink-0 w-[231px]" data-node-id="1:118" data-name="Article">
+                    <div className="absolute h-[61px] left-0 right-0 top-[17px]" data-node-id="1:119" data-name="Heading 3">
+                      <div className="absolute h-[13px] left-0 top-[28px] w-[231px]" data-node-id="5:157" style={{ backgroundImage: "linear-gradient(90deg, rgb(191, 225, 156) 0%, rgba(184, 199, 169, 0.65) 8.1731%, rgba(115, 115, 115, 0.27) 57.212%, rgba(115, 115, 115, 0) 100%)" }} />
+                      <p className="[word-break:break-word] absolute font-['Georgia:Regular'] leading-[20.7px] left-0 not-italic text-[22px] text-white top-0 whitespace-nowrap" data-node-id="1:120">
+                        Ясность
+                      </p>
+                    </div>
+                    <div className="absolute content-stretch flex flex-col items-start left-0 pt-[11px] right-0 top-[56px]" data-node-id="1:122" data-name="Paragraph">
+                      <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[18px] text-pretty text-white w-[264px]" data-node-id="1:123">
+                        Вы понимаете ситуацию и следующие шаги.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute content-stretch flex flex-col h-[62px] items-start left-0 pt-[35px] top-[628px] w-[1400px]" data-node-id="1:149" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#e8ebe1] text-[18px] text-pretty whitespace-nowrap" data-node-id="1:150">
+                    Конфиденциальность и бережное отношение к личной и медицинской информации — обязательная часть моей работы.
+                  </p>
+                </div>
+                <div className="absolute content-stretch flex flex-col items-start left-[2px] right-[1034px] top-[-8px]" data-node-id="1:86" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#869184] text-[18px] text-pretty tracking-[1.44px] w-[239px]" data-node-id="1:87">
+                    ПОЧЕМУ СО МНОЙ?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#c9c9c0] content-stretch flex flex-col items-start pb-[38px] pt-[30px] relative shrink-0 w-full" data-node-id="1:154" data-name="Section">
+            <div className="content-stretch flex flex-col h-[531px] items-center relative shrink-0 w-full" data-node-id="1:208" data-name="Container:margin">
+              <div className="h-[548px] relative shrink-0 w-[1400px]" data-node-id="1:155" data-name="Container">
+                <div className="absolute h-[226px] left-0 right-0 top-0" data-node-id="1:156" data-name="Container">
+                  <div className="absolute content-stretch flex flex-col h-[226px] items-start left-0 top-0 w-[665px]" data-node-id="1:157" data-name="Container">
+                    <div className="h-[27px] relative shrink-0 w-full" data-node-id="1:158" data-name="Paragraph" />
+                    <div className="h-[141px] relative shrink-0 w-[1053px]" data-node-id="1:160" data-name="Heading 2">
+                      <div className="[word-break:break-word] absolute font-['Georgia:Regular'] leading-[0] left-0 not-italic text-[#31342e] text-[72px] top-[10px] tracking-[-1.12px] w-[1242px]" data-node-id="1:161">
+                        <p className="leading-[60.48px] mb-0 text-balance">Один человек.</p>
+                        <p className="leading-[60.48px] text-balance">Понятный медицинский маршрут.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute content-stretch flex flex-col h-[73px] items-start left-0 top-[176px] w-[1105px]" data-node-id="1:163" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[30.462px] relative shrink-0 text-[#5d665e] text-[20.308px] text-pretty w-full" data-node-id="1:164">
+                    Я помогаю собрать отдельные этапы в понятный процесс — от первого запроса до организации консультаций, обследований, лечения или профилактической программы.
+                  </p>
+                </div>
+                <div className="absolute bg-[#d9d9d9] h-[264px] left-[-15px] rounded-[31px] top-[249px] w-[1442px]" data-node-id="5:194" />
+                <div className="absolute content-stretch flex flex-col items-start left-0 pt-[38px] right-0 top-[237px]" data-node-id="1:207" data-name="Container:margin">
+                  <div className="gap-x-[20.000001907348633px] gap-y-[20.000001907348633px] grid grid-cols-[_____264px_264px_264px_264px_264px] grid-rows-[_196px] relative shrink-0 w-[1400px]" data-node-id="1:165" data-name="Container">
+                    <div className="border-[#c5c7bd] border-solid border-t-2 col-1 h-[196px] relative row-1 shrink-0 w-[264px]" data-node-id="1:166" data-name="Article">
+                      <div className="absolute bg-[#e8ebe1] content-stretch flex items-center justify-center left-0 rounded-[21px] size-[42px] top-[17px]" data-node-id="1:167" data-name="Text">
+                        <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[27px] relative shrink-0 text-[#4d5248] text-[18px] tracking-[0.36px] whitespace-nowrap" data-node-id="1:168">
+                          01
+                        </p>
+                      </div>
+                      <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-[75px]" data-node-id="1:170" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[20.7px] not-italic relative shrink-0 text-[#31342e] text-[18px] text-balance whitespace-nowrap" data-node-id="1:171">
+                          Знакомство
+                        </p>
+                      </div>
+                      <div className="absolute content-stretch flex flex-col items-start left-0 pt-[11px] right-0 top-[96px]" data-node-id="1:172" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#5d665e] text-[18px] text-pretty w-[264px]" data-node-id="1:173">
+                          Обсуждаем вашу ситуацию, цели и ожидания.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="border-[#c5c7bd] border-solid border-t-2 col-2 h-[196px] relative row-1 shrink-0 w-[264px]" data-node-id="1:175" data-name="Article">
+                      <div className="absolute bg-[#e8ebe1] content-stretch flex items-center justify-center left-0 rounded-[21px] size-[42px] top-[17px]" data-node-id="1:176" data-name="Text">
+                        <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[27px] relative shrink-0 text-[#4d5248] text-[18px] tracking-[0.36px] whitespace-nowrap" data-node-id="1:177">
+                          02
+                        </p>
+                      </div>
+                      <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-[69px]" data-node-id="1:178" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[20.7px] not-italic relative shrink-0 text-[#31342e] text-[18px] text-balance whitespace-nowrap" data-node-id="1:179">
+                          Анализ
+                        </p>
+                      </div>
+                      <div className="absolute h-[92px] left-0 right-0 top-[90px]" data-node-id="1:180" data-name="Paragraph">
+                        <p className="[word-break:break-word] absolute font-['Raleway:Regular'] font-normal leading-[27px] left-0 text-[#5d665e] text-[18px] text-pretty top-[11px] w-[264px]" data-node-id="1:181">
+                          Изучаю имеющуюся информацию и определяю основные вопросы.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="border-[#c5c7bd] border-solid border-t-2 col-3 h-[196px] relative row-1 shrink-0 w-[264px]" data-node-id="1:183" data-name="Article">
+                      <div className="absolute bg-[#e8ebe1] content-stretch flex items-center justify-center left-0 rounded-[21px] size-[42px] top-[17px]" data-node-id="1:184" data-name="Text">
+                        <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[27px] relative shrink-0 text-[#4d5248] text-[18px] tracking-[0.36px] whitespace-nowrap" data-node-id="1:185">
+                          03
+                        </p>
+                      </div>
+                      <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-[69px]" data-node-id="1:186" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[20.7px] not-italic relative shrink-0 text-[#31342e] text-[18px] text-balance whitespace-nowrap" data-node-id="1:187">
+                          Планирование
+                        </p>
+                      </div>
+                      <div className="absolute h-[119px] left-0 right-0 top-[80px]" data-node-id="1:188" data-name="Paragraph">
+                        <p className="[word-break:break-word] absolute font-['Raleway:Regular'] font-normal leading-[27px] left-0 text-[#5d665e] text-[18px] text-pretty top-[18px] w-[264px]" data-node-id="1:189">
+                          Формирую индивидуальный маршрут и последовательность дальнейших шагов.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="border-[#c5c7bd] border-solid border-t-2 col-4 h-[196px] relative row-1 shrink-0 w-[264px]" data-node-id="1:191" data-name="Article">
+                      <div className="absolute bg-[#e8ebe1] content-stretch flex items-center justify-center left-0 rounded-[21px] size-[42px] top-[17px]" data-node-id="1:192" data-name="Text">
+                        <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[27px] relative shrink-0 text-[#4d5248] text-[18px] tracking-[0.36px] whitespace-nowrap" data-node-id="1:193">
+                          04
+                        </p>
+                      </div>
+                      <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-[69px]" data-node-id="1:194" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[20.7px] not-italic relative shrink-0 text-[#31342e] text-[18px] text-balance whitespace-nowrap" data-node-id="1:195">
+                          Организация
+                        </p>
+                      </div>
+                      <div className="absolute h-[119px] left-0 right-0 top-[80px]" data-node-id="1:196" data-name="Paragraph">
+                        <p className="[word-break:break-word] absolute font-['Raleway:Regular'] font-normal leading-[27px] left-0 text-[#5d665e] text-[18px] text-pretty top-[18px] w-[264px]" data-node-id="1:197">
+                          Подбираю специалистов и клиники, организую консультации и обследования.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="border-[#c5c7bd] border-solid border-t-2 col-5 h-[196px] relative row-1 shrink-0 w-[264px]" data-node-id="1:199" data-name="Article">
+                      <div className="absolute bg-[#e8ebe1] content-stretch flex items-center justify-center left-0 rounded-[21px] size-[42px] top-[17px]" data-node-id="1:200" data-name="Text">
+                        <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[27px] relative shrink-0 text-[#4d5248] text-[18px] tracking-[0.36px] whitespace-nowrap" data-node-id="1:201">
+                          05
+                        </p>
+                      </div>
+                      <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-[69px]" data-node-id="1:202" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[20.7px] not-italic relative shrink-0 text-[#31342e] text-[18px] text-balance whitespace-nowrap" data-node-id="1:203">
+                          Сопровождение
+                        </p>
+                      </div>
+                      <div className="absolute h-[92px] left-0 right-0 top-[80px]" data-node-id="1:204" data-name="Paragraph">
+                        <p className="[word-break:break-word] absolute font-['Raleway:Regular'] font-normal leading-[27px] left-0 text-[#5d665e] text-[18px] text-pretty top-[18px] w-[264px]" data-node-id="1:205">
+                          Координирую и сопровождаю вас на каждом согласованном этапе.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#b8c4b8] content-stretch flex flex-col h-[1072px] items-start pb-[62px] pt-[66px] relative shrink-0 w-full" data-node-id="1:209" data-name="Section">
+            <div className="content-stretch flex flex-col h-[915px] items-center relative shrink-0 w-full" data-node-id="1:245" data-name="Container:margin">
+              <div className="h-[843px] relative shrink-0 w-[1400px]" data-node-id="1:210" data-name="Container">
+                <div className="absolute h-[814.722px] left-[-4px] overflow-clip top-[126px] w-[665px]" data-node-id="1:211" style={{ backgroundImage: "linear-gradient(129.22232431067175deg, rgb(212, 216, 207) 0%, rgb(237, 240, 233) 100%)" }} data-name="Container">
+                  <div className="absolute h-[798.094px] left-[68px] top-[8.36px] w-[577.806px]" data-node-id="1:212" data-name="Image (Наталья Генова в спокойной обстановке)">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage} />
+                  </div>
+                </div>
+                <div className="absolute h-[843px] left-[742px] top-[54px] w-[658px]" data-node-id="1:213" data-name="Container">
+                  <div className="absolute content-stretch flex flex-col items-start left-0 pt-[22.305px] top-[81px]" data-node-id="1:237" data-name="Paragraph:margin">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[31.116px] relative shrink-0 text-[#1e2b20] text-[20.075px] text-pretty w-[658px]" data-node-id="1:219">
+                      Меня зовут Наталья Генова. Я сопровождаю частных клиентов и семьи в медицинских вопросах в Германии — от профилактики и диагностики до лечения и реабилитации.
+                    </p>
+                  </div>
+                  <div className="absolute content-stretch flex flex-col items-start left-0 pt-[15.068px] top-[197px]" data-node-id="1:238" data-name="Paragraph:margin">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[30.028px] relative shrink-0 text-[#31342e] text-[19.373px] text-pretty w-[635px]" data-node-id="1:222">
+                      За годы работы я хорошо изучила немецкую медицинскую систему: как устроен путь пациента, чем отличаются университетские клиники и частные практики, как организуются консультации и обследования и как найти подходящего специалиста для конкретной ситуации.
+                    </p>
+                  </div>
+                  <div className="absolute content-stretch flex flex-col items-start left-0 pt-[15.115px] top-[367px]" data-node-id="1:239" data-name="Paragraph:margin">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[30.123px] relative shrink-0 text-[#31342e] text-[19.434px] text-pretty w-[659px]" data-node-id="1:224">
+                      Многие мои клиенты живут за пределами Германии, поэтому работа с международными запросами, медицинскими документами и дистанционная организация — привычная часть моей работы.
+                    </p>
+                  </div>
+                  <div className="absolute content-stretch flex flex-col items-start left-0 pt-[14px] top-[490px]" data-node-id="1:240" data-name="Paragraph:margin">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27.9px] relative shrink-0 text-[#31342e] text-[18px] text-pretty w-[644px]" data-node-id="1:226">
+                      Моя задача — сделать медицинский процесс понятнее: спокойно разобраться в ситуации, определить следующие шаги и организовать их.
+                    </p>
+                  </div>
+                  <div className="absolute h-[42px] left-0 top-[587px] w-[590px]" data-node-id="1:227" data-name="Paragraph">
+                    <p className="[word-break:break-word] absolute font-['Raleway:Regular'] font-normal leading-[27.9px] left-0 text-[#31342e] text-[18px] text-pretty top-0 whitespace-nowrap" data-node-id="1:228">
+                      Всё, что вы мне доверяете, остаётся конфиденциальным.
+                    </p>
+                  </div>
+                  <div className="absolute content-stretch flex flex-col items-start left-0 pt-[14px] top-[629px]" data-node-id="1:242" data-name="Paragraph:margin">
+                    <div className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[0] relative shrink-0 text-[#31342e] text-[18px] w-[590px] whitespace-pre-wrap" data-node-id="1:230">
+                      <p className="leading-[27.9px] mb-0 text-pretty">{`Медицинские решения принимают врачи совместно с пациентом. `}</p>
+                      <p className="leading-[27.9px] text-pretty">Я отвечаю за организацию, координацию и понятность процесса.</p>
+                    </div>
+                  </div>
+                  <div className="absolute content-stretch flex flex-col h-[41px] items-start left-px pt-[14px] top-[716px] w-[658px]" data-node-id="1:231" data-name="Heading 3">
+                    <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[26.45px] not-italic relative shrink-0 text-[#31342e] text-[23px] text-balance whitespace-nowrap" data-node-id="1:232">
+                      Личное общение. Внимание к деталям.
+                    </p>
+                  </div>
+                  <div className="absolute content-stretch flex flex-col items-start left-0 pb-[14px] pt-[11px] top-[761px]" data-node-id="1:244" data-name="Paragraph:margin">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27.9px] relative shrink-0 text-[#31342e] text-[18px] text-pretty w-[590px]" data-node-id="1:235">
+                      Я работаю с каждым запросом лично, внимательно отношусь к медицинской информации и веду согласованные этапы так, чтобы вам было понятно, что происходит сейчас и что будет дальше.
+                    </p>
+                  </div>
+                </div>
+                <div className="absolute content-stretch flex flex-col h-[81px] items-start left-[-7px] pt-[20px] top-[45px] w-[1336px]" data-node-id="1:216" data-name="Heading 2">
+                  <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[60.48px] not-italic relative shrink-0 text-[#31342e] text-[72px] text-balance tracking-[-1.12px] whitespace-nowrap" data-node-id="1:217">
+                    Всегда на вашей стороне
+                  </p>
+                </div>
+                <div className="absolute content-stretch flex flex-col items-start left-[3px] top-[-14px] w-[658px]" data-node-id="1:214" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#869184] text-[18px] text-pretty tracking-[1.44px] whitespace-nowrap" data-node-id="1:215">
+                    ОБО МНЕ
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="1:391" data-name="Section:margin">
+            <div className="content-stretch flex flex-col items-start py-[64px] relative shrink-0 w-[1400px]" data-node-id="1:246" data-name="Section">
+              <div className="content-stretch flex items-end justify-between relative shrink-0 w-full" data-node-id="1:247" data-name="Container">
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-[499.531px]" data-node-id="1:248" data-name="Container">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:249" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#869184] text-[18px] text-pretty tracking-[1.44px] whitespace-nowrap" data-node-id="1:250">
+                      05 / ИЗ ПРАКТИКИ
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[81px] items-start pt-[20px] relative shrink-0 w-[499.531px]" data-node-id="1:251" data-name="Heading 2">
+                    <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[60.48px] not-italic relative shrink-0 text-[#31342e] text-[56px] text-balance tracking-[-1.12px] whitespace-nowrap" data-node-id="1:252">
+                      Истории пациентов
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[8px] items-start relative shrink-0" data-node-id="1:254" data-name="Container">
+                  <div className="border-2 border-[#c5c7bd] border-solid content-stretch flex flex-col items-center justify-center pb-[3px] pt-[2px] px-[6px] relative shrink-0 size-[42px]" data-node-id="1:255" data-name="Button - Предыдущая история">
+                    <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[30px] relative shrink-0 text-[#31342e] text-[20px] text-center tracking-[-0.2px] whitespace-nowrap" data-node-id="1:256">
+                      ←
+                    </p>
+                  </div>
+                  <div className="border-2 border-[#c5c7bd] border-solid content-stretch flex flex-col items-center justify-center pb-[3px] pt-[2px] px-[6px] relative shrink-0 size-[42px]" data-node-id="1:258" data-name="Button - Следующая история">
+                    <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[30px] relative shrink-0 text-[#31342e] text-[20px] text-center tracking-[-0.2px] whitespace-nowrap" data-node-id="1:259">
+                      →
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start pt-[38px] relative shrink-0 w-full" data-node-id="1:318" data-name="Container:margin">
+                <div className="content-stretch flex flex-col h-[286px] items-start overflow-clip relative shrink-0 w-full" data-node-id="1:260" data-name="Container">
+                  <div className="content-stretch flex h-[286px] items-start relative shrink-0 w-full" data-node-id="1:261" data-name="Container">
+                    <div className="content-stretch flex flex-col h-full items-start pb-[31px] pr-[38px] pt-[29px] relative shrink-0 w-[1400px]" data-node-id="1:262" data-name="Article">
+                      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:263" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#889287] text-[18px] text-pretty tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="1:264">
+                          Евгений
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col h-[46px] items-start max-w-[610px] pt-[13px] relative shrink-0 w-[610px]" data-node-id="1:266" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[32.2px] not-italic relative shrink-0 text-[#31342e] text-[28px] text-balance whitespace-nowrap" data-node-id="1:267">
+                          Возвращение к большому спорту
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start pt-[11px] relative shrink-0" data-node-id="1:273" data-name="Paragraph:margin">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[28.8px] relative shrink-0 text-[#5d665e] text-[18px] text-pretty w-[830px]" data-node-id="1:270">
+                          Евгений больше двадцати лет занимался триатлоном, но из-за проблем с ахилловыми сухожилиями всё чаще пропускал тренировки. Мы нашли в Германии специалиста, который понимал спортивные травмы и ценность возвращения к тренировкам. После обследования врачи предложили лечение, и сейчас Евгений снова тренируется и выступает на чемпионатах мира и Европы.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex flex-col h-full items-start pb-[31px] pr-[38px] pt-[29px] relative shrink-0 w-[1400px]" data-node-id="1:274" data-name="Article">
+                      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:275" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#889287] text-[18px] text-pretty tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="1:276">
+                          Анна
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col h-[46px] items-start max-w-[610px] pt-[13px] relative shrink-0 w-[610px]" data-node-id="1:277" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[32.2px] not-italic relative shrink-0 text-[#31342e] text-[28px] text-balance whitespace-nowrap" data-node-id="1:278">
+                          Операция и понятный план восстановления
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start pt-[11px] relative shrink-0" data-node-id="1:282" data-name="Paragraph:margin">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[28.8px] relative shrink-0 text-[#5d665e] text-[18px] text-pretty w-[830px]" data-node-id="1:280">
+                          После серьёзной травмы Анне потребовалась сложная операция, которую нельзя было провести дома. Мы договорились с клиникой, подготовили поездку, а в Германии я была рядом с Анной в больнице, помогала на консультациях и организовала восстановительные процедуры. Домой она уехала с понятным планом реабилитации.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex flex-col h-full items-start pb-[31px] pr-[38px] pt-[29px] relative shrink-0 w-[1400px]" data-node-id="1:283" data-name="Article">
+                      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:284" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#889287] text-[18px] text-pretty tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="1:285">
+                          Ольга
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col h-[46px] items-start max-w-[610px] pt-[13px] relative shrink-0 w-[610px]" data-node-id="1:286" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[32.2px] not-italic relative shrink-0 text-[#31342e] text-[28px] text-balance whitespace-nowrap" data-node-id="1:287">
+                          Ответ после семи лет переживаний
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start pt-[11px] relative shrink-0" data-node-id="1:291" data-name="Paragraph:margin">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[28.8px] relative shrink-0 text-[#5d665e] text-[18px] text-pretty w-[830px]" data-node-id="1:289">
+                          Ольга приехала в Германию на обследование почек с диагнозом, который ей ставили около семи лет. Я была с ней на приёмах и переводила обсуждение с врачами. В конце обследования выяснилось, что диагноз не подтвердился, а особенность организма не должна мешать нормальной жизни.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex flex-col h-full items-start pb-[31px] pr-[38px] pt-[29px] relative shrink-0 w-[1400px]" data-node-id="1:292" data-name="Article">
+                      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:293" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#889287] text-[18px] text-pretty tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="1:294">
+                          Мария
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start max-w-[610px] pt-[13px] relative shrink-0 w-[610px]" data-node-id="1:295" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[32.2px] not-italic relative shrink-0 text-[#31342e] text-[28px] text-balance w-[610px]" data-node-id="1:296">
+                          Когда причина нашлась в полном обследовании
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start pt-[11px] relative shrink-0" data-node-id="1:300" data-name="Paragraph:margin">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[28.8px] relative shrink-0 text-[#5d665e] text-[18px] text-pretty w-[830px]" data-node-id="1:298">
+                          Мария обратилась из Петербурга из-за болей в спине и шее, головных болей и головокружения. Мы выбрали комплексное обследование, которое помогло найти причину в области крестца. Лечение оказалось простым: остеопатия, упражнения, правильная нагрузка и ортопедическая поддержка. Уже через неделю боли прошли.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex flex-col h-full items-start pb-[31px] pr-[38px] pt-[29px] relative shrink-0 w-[1400px]" data-node-id="1:301" data-name="Article">
+                      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:302" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#889287] text-[18px] text-pretty tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="1:303">
+                          Семья Терехиных
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col h-[46px] items-start max-w-[610px] pt-[13px] relative shrink-0 w-[610px]" data-node-id="1:304" data-name="Heading 3">
+                        <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[32.2px] not-italic relative shrink-0 text-[#31342e] text-[28px] text-balance whitespace-nowrap" data-node-id="1:305">
+                          Возвращение к обычной жизни
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start pt-[11px] relative shrink-0" data-node-id="1:309" data-name="Paragraph:margin">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[28.8px] relative shrink-0 text-[#5d665e] text-[18px] text-pretty w-[830px]" data-node-id="1:307">
+                          После двойного перелома стопы и незаживающей кости семья обратилась за помощью в Германии. Впереди были консультации, две операции и восстановление. Мы всё время оставались на связи и проходили путь вместе. Постепенно муж перестал хромать и всё меньше вспоминал о своей ноге.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[8px] h-[20px] items-start pt-[18px] relative shrink-0 w-[1400px]" data-node-id="1:310" data-name="Выбор истории">
+                <div className="bg-[#4d5248] h-[2px] relative shrink-0 w-[30px]" data-node-id="1:311" data-name="Button - Показать историю 1" />
+                <div className="bg-[#c2c8bd] h-[2px] relative shrink-0 w-[30px]" data-node-id="1:312" data-name="Button - Показать историю 2" />
+                <div className="bg-[#c2c8bd] h-[2px] relative shrink-0 w-[30px]" data-node-id="1:313" data-name="Button - Показать историю 3" />
+                <div className="bg-[#c2c8bd] h-[2px] relative shrink-0 w-[30px]" data-node-id="1:314" data-name="Button - Показать историю 4" />
+                <div className="bg-[#c2c8bd] h-[2px] relative shrink-0 w-[30px]" data-node-id="1:315" data-name="Button - Показать историю 5" />
+              </div>
+              <div className="h-[46px] relative shrink-0 w-full" data-node-id="1:320" data-name="Container">
+                <div className="absolute border-[#8d9a8e] border-b-2 border-solid h-[28px] left-0 top-[18px] w-[285.656px]" data-node-id="1:316" data-name="Link">
+                  <p className="[word-break:break-word] absolute font-['Raleway:SemiBold'] font-semibold leading-[27px] left-0 text-[#4d5248] text-[18px] top-[-1px] whitespace-nowrap" data-node-id="1:317">
+                    Посмотреть реальные случаи ↗
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="1:392" data-name="Section:margin">
+            <div className="content-stretch flex flex-col items-start pb-[86px] pt-[82px] relative shrink-0 w-[1400px]" data-node-id="1:321" data-name="Section">
+              <div className="gap-x-[70px] gap-y-[70px] grid grid-cols-[__665px_665px] grid-rows-[_106px] relative shrink-0 w-full" data-node-id="1:322" data-name="Container">
+                <div className="col-1 content-stretch flex flex-col h-[106px] items-start justify-self-stretch relative row-1 self-end shrink-0" data-node-id="1:323" data-name="Container">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:324" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#869184] text-[18px] text-pretty tracking-[1.44px] whitespace-nowrap" data-node-id="1:325">
+                      ФОРМАТЫ РАБОТЫ
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[81px] items-start pt-[20px] relative shrink-0 w-[665px]" data-node-id="1:326" data-name="Heading 2">
+                    <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[60.48px] not-italic relative shrink-0 text-[#31342e] text-[56px] text-balance tracking-[-1.12px] whitespace-nowrap" data-node-id="1:327">
+                      Форматы работы
+                    </p>
+                  </div>
+                </div>
+                <div className="col-2 content-stretch flex flex-col h-[78px] items-start justify-self-stretch max-w-[590px] relative row-1 self-end shrink-0" data-node-id="1:329" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#5d665e] text-[18px] text-pretty w-[590px]" data-node-id="1:330">
+                    Не каждому запросу требуется длительное сопровождение. Начинаем с понимания ситуации и выбираем необходимый объём работы.
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start pt-[38px] relative shrink-0 w-full" data-node-id="1:368" data-name="Container:margin">
+                <div className="gap-x-[28px] gap-y-[28px] grid grid-cols-[___448px_448px_448px] grid-rows-[_364px] relative shrink-0 w-full" data-node-id="1:331" data-name="Container">
+                  <div className="border-2 border-[rgba(174,181,168,0.4)] border-solid col-1 content-stretch flex flex-col items-start justify-self-stretch overflow-clip pb-[30px] pt-[14px] px-[14px] relative rounded-[30px] row-1 self-stretch shadow-[0px_20px_34px_-24px_rgba(41,55,46,0.75)] shrink-0" data-node-id="1:332" data-name="Article">
+                    <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[30px]" style={{ backgroundImage: "linear-gradient(150.3636463477048deg, rgb(123, 136, 119) 6.1733%, rgb(76, 91, 77) 35.975%, rgb(41, 55, 46) 93.827%)" }} />
+                    <div className="content-stretch flex flex-col h-[70px] items-start pb-[18px] px-[8px] relative shrink-0 w-[416px]" data-node-id="1:334" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[25.76px] not-italic relative shrink-0 text-[#f8f7f2] text-[23px] text-balance w-[400px]" data-node-id="1:335">
+                        Персональное медицинское сопровождение
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start px-[8px] relative shrink-0 w-full" data-node-id="1:342" data-name="Paragraph:margin">
+                      <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27.9px] relative shrink-0 text-[18px] text-[rgba(250,249,243,0.84)] text-pretty w-[370px]" data-node-id="1:338">
+                        Индивидуальное ведение медицинской ситуации — от анализа и формирования маршрута до подбора специалистов и клиник, организации консультаций, обследований и координации дальнейших этапов.
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start pt-[16px] px-[8px] relative shrink-0 w-full" data-node-id="1:343" data-name="Paragraph:margin">
+                      <div className="content-stretch flex flex-col h-[78px] items-start max-w-[370px] relative shrink-0 w-[370px]" data-node-id="1:339" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27.9px] relative shrink-0 text-[18px] text-[rgba(250,249,243,0.84)] text-pretty w-[370px]" data-node-id="1:340">
+                          Я сопровождаю вас и координирую процесс на протяжении всей нашей работы.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="absolute h-[3px] left-[71.03px] opacity-80 rounded-bl-[6px] rounded-br-[6px] top-[-2px] w-[301.906px]" data-node-id="1:333" style={{ backgroundImage: "linear-gradient(89.99999999999946deg, rgba(217, 185, 143, 0) 0%, rgba(217, 185, 143, 0.82) 33.333%, rgba(184, 199, 169, 0.68) 66.667%, rgba(184, 199, 169, 0) 100%)" }} data-name="Text" />
+                    <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_1px_0px_0px_rgba(255,255,255,0.22)]" />
+                  </div>
+                  <div className="border-2 border-[rgba(174,181,168,0.4)] border-solid col-2 content-stretch flex flex-col items-start justify-self-stretch overflow-clip pb-[30px] pt-[14px] px-[14px] relative rounded-[30px] row-1 self-stretch shadow-[0px_20px_34px_-24px_rgba(41,55,46,0.75)] shrink-0" data-node-id="1:344" data-name="Article">
+                    <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[30px]" style={{ backgroundImage: "linear-gradient(150.3636463477048deg, rgb(123, 136, 119) 6.1733%, rgb(76, 91, 77) 35.975%, rgb(41, 55, 46) 93.827%)" }} />
+                    <div className="content-stretch flex flex-col h-[44px] items-start pb-[18px] px-[8px] relative shrink-0 w-[416px]" data-node-id="1:346" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[25.76px] not-italic relative shrink-0 text-[#f8f7f2] text-[23px] text-balance whitespace-nowrap" data-node-id="1:347">
+                        Медицинское сопровождение семьи
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start px-[8px] relative shrink-0 w-full" data-node-id="1:353" data-name="Paragraph:margin">
+                      <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27.9px] relative shrink-0 text-[18px] text-[rgba(250,249,243,0.84)] text-pretty w-[370px]" data-node-id="1:349">
+                        Координация медицинских вопросов нескольких членов семьи. Для каждого человека формируется собственный маршрут, при этом организационные вопросы ведутся через одного доверенного контактного человека.
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start pt-[16px] px-[8px] relative shrink-0 w-full" data-node-id="1:354" data-name="Paragraph:margin">
+                      <div className="content-stretch flex flex-col h-[52px] items-start max-w-[370px] relative shrink-0 w-[370px]" data-node-id="1:350" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27.9px] relative shrink-0 text-[18px] text-[rgba(250,249,243,0.84)] text-pretty w-[370px]" data-node-id="1:351">
+                          Формат и объём сопровождения определяются индивидуально.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="absolute h-[3px] left-[71.03px] opacity-80 rounded-bl-[6px] rounded-br-[6px] top-[-2px] w-[301.906px]" data-node-id="1:345" style={{ backgroundImage: "linear-gradient(89.99999999999946deg, rgba(217, 185, 143, 0) 0%, rgba(217, 185, 143, 0.82) 33.333%, rgba(184, 199, 169, 0.68) 66.667%, rgba(184, 199, 169, 0) 100%)" }} data-name="Text" />
+                    <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_1px_0px_0px_rgba(255,255,255,0.22)]" />
+                  </div>
+                  <div className="border-2 border-[rgba(174,181,168,0.4)] border-solid col-3 content-stretch flex flex-col items-start justify-self-stretch overflow-clip pb-[30px] pt-[14px] px-[14px] relative rounded-[30px] row-1 self-stretch shadow-[0px_20px_34px_-24px_rgba(41,55,46,0.75)] shrink-0" data-node-id="1:355" data-name="Article">
+                    <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[30px]" style={{ backgroundImage: "linear-gradient(150.3636463477048deg, rgb(123, 136, 119) 6.1733%, rgb(76, 91, 77) 35.975%, rgb(41, 55, 46) 93.827%)" }} />
+                    <div className="content-stretch flex flex-col h-[44px] items-start pb-[18px] px-[8px] relative shrink-0 w-[416px]" data-node-id="1:357" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[25.76px] not-italic relative shrink-0 text-[#f8f7f2] text-[23px] text-balance whitespace-nowrap" data-node-id="1:358">
+                        Первичный разбор ситуации
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start px-[8px] relative shrink-0 w-full" data-node-id="1:364" data-name="Paragraph:margin">
+                      <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27.9px] relative shrink-0 text-[18px] text-[rgba(250,249,243,0.84)] text-pretty w-[370px]" data-node-id="1:360">
+                        Первая встреча, на которой мы разбираем ваш запрос, имеющуюся медицинскую информацию и следующие шаги.
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start pt-[16px] px-[8px] relative shrink-0 w-full" data-node-id="1:365" data-name="Paragraph:margin">
+                      <div className="content-stretch flex flex-col h-[78px] items-start max-w-[370px] relative shrink-0 w-[370px]" data-node-id="1:361" data-name="Paragraph">
+                        <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27.9px] relative shrink-0 text-[18px] text-[rgba(250,249,243,0.84)] text-pretty w-[370px]" data-node-id="1:362">
+                          Результат: понимание ситуации, приоритетов и подходящего направления дальнейшей работы.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="absolute h-[3px] left-[71.03px] opacity-80 rounded-bl-[6px] rounded-br-[6px] top-[-2px] w-[301.906px]" data-node-id="1:356" style={{ backgroundImage: "linear-gradient(89.99999999999946deg, rgba(217, 185, 143, 0) 0%, rgba(217, 185, 143, 0.82) 33.333%, rgba(184, 199, 169, 0.68) 66.667%, rgba(184, 199, 169, 0) 100%)" }} data-name="Text" />
+                    <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_1px_0px_0px_rgba(255,255,255,0.22)]" />
+                  </div>
+                </div>
+              </div>
+              <div className="h-[46px] relative shrink-0 w-full" data-node-id="1:369" data-name="Container">
+                <div className="absolute border-[#8d9a8e] border-b-2 border-solid h-[28px] left-0 top-[18px] w-[236.5px]" data-node-id="1:366" data-name="Link">
+                  <p className="[word-break:break-word] absolute font-['Raleway:SemiBold'] font-semibold leading-[27px] left-0 text-[#4d5248] text-[18px] top-[-1px] whitespace-nowrap" data-node-id="1:367">
+                    Как мы можем работать ↗
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#4d5248] content-stretch flex flex-col items-start pb-[78px] pt-[72px] relative shrink-0 w-full" data-node-id="1:370" data-name="Section">
+            <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="1:388" data-name="Container:margin">
+              <div className="h-[304px] relative shrink-0 w-[1400px]" data-node-id="1:371" data-name="Container">
+                <div className="absolute content-stretch flex flex-col h-[304px] items-start left-0 top-0 w-[665px]" data-node-id="1:372" data-name="Container">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:373" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#b8c4b8] text-[18px] text-pretty tracking-[1.44px] whitespace-nowrap" data-node-id="1:374">
+                      07 / КОНТАКТ
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[59px] items-start pt-[20px] relative shrink-0 w-[665px]" data-node-id="1:375" data-name="Heading 2">
+                    <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[38.88px] not-italic relative shrink-0 text-[#f8f7f2] text-[36px] text-balance tracking-[-0.72px] whitespace-nowrap" data-node-id="1:376">
+                      Расскажите мне о вашей ситуации
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[18px] relative shrink-0" data-node-id="1:383" data-name="Paragraph:margin">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#d1d8ce] text-[18px] text-pretty w-[520px]" data-node-id="1:379">
+                      Опишите ваш запрос в WhatsApp. Я ознакомлюсь с ним, после чего мы обсудим возможный формат работы и следующие шаги.
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pb-[18px] pt-[28px] relative shrink-0" data-node-id="1:384" data-name="Paragraph:margin">
+                    <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#d1d8ce] text-[18px] text-pretty w-[520px]" data-node-id="1:381">
+                      Личная и медицинская информация обрабатывается конфиденциально и используется только для работы с вашим запросом.
+                    </p>
+                  </div>
+                </div>
+                <div className="absolute border-[2.171px] border-[rgba(0,0,0,0)] border-solid h-[76px] left-[868.71px] overflow-clip rounded-[19.543px] shadow-[0px_10.857px_21.714px_-13.029px_rgba(66,52,33,0.22)] top-[104px] w-[488.571px]" data-node-id="1:385" data-name="Link">
+                  <div aria-hidden className="absolute bg-[#25d366] inset-0 pointer-events-none rounded-[19.543px]" />
+                  <p className="[word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35.829px] left-[30.94px] text-[26.057px] text-white top-[17.91px] tracking-[-0.2823px] whitespace-nowrap" data-node-id="1:386">
+                    Написать в WhatsApp →
+                  </p>
+                  <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0.543px_0.543px_0px_rgba(255,255,255,0.9)]" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#29372e] content-stretch flex flex-col items-start pb-[22px] pt-[48px] relative shrink-0 w-full" data-node-id="1:393" data-name="Footer">
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="1:449" data-name="Container:margin">
+            <div className="gap-x-[50px] gap-y-[50px] grid grid-cols-[___557.12px_371.44px_371.44px] grid-rows-[_234px] pb-[37px] relative shrink-0 w-[1400px]" data-node-id="1:394" data-name="Container">
+              <div className="col-1 content-stretch flex flex-col items-start justify-self-stretch relative row-1 self-stretch shrink-0" data-node-id="1:395" data-name="Container">
+                <div className="h-[26px] relative shrink-0 w-full" data-node-id="1:403" data-name="Container">
+                  <p className="[word-break:break-word] absolute font-['Georgia:Medium'] leading-[normal] left-0 not-italic text-[#f8f7f2] text-[20px] top-[-3px] tracking-[0.4px] whitespace-nowrap" data-node-id="1:396">
+                    Наталья Генова
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[36px] items-start pt-[9px] relative shrink-0 w-[557.125px]" data-node-id="1:397" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] text-pretty whitespace-nowrap" data-node-id="1:398">
+                    Ваш человек в немецкой медицине
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[36px] items-start pt-[9px] relative shrink-0 w-[557.125px]" data-node-id="1:399" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] text-pretty whitespace-nowrap" data-node-id="1:400">
+                    Private Medical Guidance
+                  </p>
+                </div>
+              </div>
+              <div className="col-2 content-stretch flex flex-col items-start justify-self-stretch relative row-1 self-stretch shrink-0" data-node-id="1:404" data-name="Container">
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:405" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#89988a] text-[18px] text-pretty tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="1:406">
+                    Навигация
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[37px] items-start pt-[10px] relative shrink-0 w-[371.438px]" data-node-id="1:407" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:408">
+                    Направления
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[34px] items-start pt-[7px] relative shrink-0 w-[371.438px]" data-node-id="1:409" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:410">
+                    Подход
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[34px] items-start pt-[7px] relative shrink-0 w-[371.438px]" data-node-id="1:411" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:412">
+                    Обо мне
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[34px] items-start pt-[7px] relative shrink-0 w-[371.438px]" data-node-id="1:413" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:414">
+                    Форматы
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[34px] items-start pt-[7px] relative shrink-0 w-[371.438px]" data-node-id="1:415" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:416">
+                    Истории пациентов
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[41px] items-start py-[7px] relative shrink-0 w-[371.438px]" data-node-id="1:417" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:418">
+                    Контакт
+                  </p>
+                </div>
+              </div>
+              <div className="col-3 content-stretch flex flex-col items-start justify-self-stretch relative row-1 self-stretch shrink-0" data-node-id="1:425" data-name="Container">
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:426" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#89988a] text-[18px] text-pretty tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="1:427">
+                    Контакты
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[37px] items-start pt-[10px] relative shrink-0 w-[371.438px]" data-node-id="1:428" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:429">
+                    WhatsApp
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[34px] items-start pt-[7px] relative shrink-0 w-[371.438px]" data-node-id="1:430" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:431">
+                    Instagram
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[34px] items-start pt-[7px] relative shrink-0 w-[371.438px]" data-node-id="1:432" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:433">
+                    LinkedIn
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[34px] items-start pt-[7px] relative shrink-0 w-[371.438px]" data-node-id="1:434" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:435">
+                    Impressum
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[41px] items-start py-[7px] relative shrink-0 w-[371.438px]" data-node-id="1:436" data-name="Link">
+                  <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#c5cdc4] text-[18px] whitespace-nowrap" data-node-id="1:437">
+                    Datenschutz
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-center pb-[10px] relative shrink-0 w-full" data-node-id="1:450" data-name="Container:margin">
+            <div className="border-[rgba(197,205,196,0.2)] border-solid border-t-2 content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-[1400px]" data-node-id="1:443" data-name="Container">
+              <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#aeb9ae] text-[18px] text-pretty w-[850px]" data-node-id="1:445">
+                Услуги носят организационный и координационный характер. Медицинская диагностика, назначение лечения и медицинские решения осуществляются врачами и медицинскими учреждениями.
+              </p>
+              <div className="content-stretch flex flex-col h-[37px] items-start max-w-[850px] pt-[10px] relative shrink-0 w-[850px]" data-node-id="1:446" data-name="Paragraph">
+                <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[27px] relative shrink-0 text-[#aeb9ae] text-[18px] text-pretty whitespace-nowrap" data-node-id="1:447">
+                  © 2026 Наталья Генова · Private Medical Guidance
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute border-2 border-[#eee6db] border-solid content-stretch flex items-center justify-between left-[34px] px-[20px] py-[18px] rounded-[18px] shadow-[0px_16px_30px_0px_rgba(66,52,33,0.25)] top-[6689px] w-[3304px]" data-node-id="1:451" data-name="Sidebar - Уведомление о cookies">
+        <div aria-hidden className="absolute bg-[rgba(250,246,237,0.97)] inset-0 pointer-events-none rounded-[18px]" />
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-[575.625px]" data-node-id="1:452" data-name="Container">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:453" data-name="Paragraph">
+            <p className="[word-break:break-word] font-['Georgia:Regular'] leading-[28px] not-italic relative shrink-0 text-[#31342e] text-[20px] text-pretty whitespace-nowrap" data-node-id="1:454">
+              Мы используем cookies
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col h-[30px] items-start pt-[4px] relative shrink-0 w-[575.625px]" data-node-id="1:456" data-name="Paragraph">
+            <p className="[word-break:break-word] font-['Raleway:Regular'] font-normal leading-[25.2px] relative shrink-0 text-[#31342e] text-[18px] text-pretty whitespace-nowrap" data-node-id="1:457">
+              Они помогают сайту работать корректно и запоминать ваш выбор.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start relative shrink-0" data-node-id="1:460" data-name="Container">
+          <div className="border-2 border-[#d9d1c6] border-solid content-stretch flex flex-col items-center justify-center min-h-[38px] px-[15px] relative rounded-[16px] self-stretch shadow-[0px_8px_15px_0px_rgba(66,52,33,0.32)] shrink-0" data-node-id="1:461" data-name="Button">
+            <div aria-hidden className="absolute bg-[rgba(255,255,255,0)] inset-0 pointer-events-none rounded-[16px]" />
+            <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[27px] relative shrink-0 text-[#31342e] text-[18px] text-center tracking-[-0.18px] whitespace-nowrap" data-node-id="1:462">
+              Только необходимые
+            </p>
+            <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0.5px_0.5px_0px_rgba(255,255,255,0.15)]" />
+          </div>
+          <div className="content-stretch drop-shadow-[0px_8px_7.5px_rgba(66,52,33,0.32)] flex flex-col items-center justify-center min-h-[38px] px-[15px] relative rounded-[16px] self-stretch shrink-0" data-node-id="1:464" data-name="Button">
+            <div aria-hidden className="absolute bg-[#4d5248] inset-0 pointer-events-none rounded-[16px]" />
+            <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[27px] relative shrink-0 text-[18px] text-center text-white tracking-[-0.18px] whitespace-nowrap" data-node-id="1:465">
+              Принять
+            </p>
+            <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0.5px_0.5px_0px_rgba(255,255,255,0.15)]" />
+          </div>
+        </div>
+        <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_7px_14px_0px_rgba(88,72,49,0.04)]" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

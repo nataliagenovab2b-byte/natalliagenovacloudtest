@@ -1,0 +1,11 @@
+{
+  "name": "natallia-genova-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static HTML implementation of the Natallia Genova Figma website.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check script.js && node --check scripts/build.mjs && node --check scripts/verify.mjs",
+    "test:browser": "node scripts/verify.mjs"
+  }
+}
