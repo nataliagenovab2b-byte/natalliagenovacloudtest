@@ -67,7 +67,7 @@ const copy = {
   },
   en: {
     nav:['Areas of support','My approach','About me','My services','Contact ↗'],header:'Discuss your situation',
-    title:'Your private<br>medical guidance<br>in Germany',
+    title:'Your private medical guidance in Germany',
     lead:'Independent guidance based on your needs.<br>Help finding the right specialists and arranging medical care in Germany, with one person to turn to throughout the process.',
     help:'How can I help you?',ask:'Ask me on WA ↗',
     inquiries:'Common reasons for help',inquiriesTag:'01 / Areas of support',
@@ -132,7 +132,9 @@ const copy = {
   }
 };
 const page = document.body.dataset.page || 'home';
-let lang = localStorage.getItem('ng-language') === 'en' ? 'en' : 'ru';
+const requestedLanguage = new URLSearchParams(location.search).get('lang');
+let lang = requestedLanguage === 'en' || (requestedLanguage !== 'ru' && localStorage.getItem('ng-language') === 'en') ? 'en' : 'ru';
+if (requestedLanguage === 'en' || requestedLanguage === 'ru') localStorage.setItem('ng-language', lang);
 const asset = name => 'assets/' + name;
 const cards = (items, cls='') => items.map(([title,body],i)=>`<article class="${cls}"><h3>${title}</h3><p>${body}</p></article>`).join('');
 const sectionTitle = (tag,title,intro='') => `<p class="eyebrow">${tag}</p><h2>${title}</h2>${intro ? `<p class="section-intro">${intro}</p>` : ''}`;

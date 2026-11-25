@@ -114,5 +114,6 @@ if (language === 'en') {
   document.querySelectorAll('a[href^="stories.html#"]').forEach(a=>a.href=a.href.replace('stories.html#','stories.html?lang=en#'));
   document.querySelectorAll('a[href="stories.html"]').forEach(a=>a.href='stories.html?lang=en');
   document.querySelectorAll('a[href^="index.html#"]').forEach(a=>a.href=a.href.replace('index.html#','index.html?lang=en#'));
+  document.querySelectorAll('a[href="index.html"]').forEach(a=>a.href='index.html?lang=en');
   set('.all-stories', 'All patient stories and articles');
 }
