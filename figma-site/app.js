@@ -67,7 +67,7 @@ const copy = {
   },
   en: {
     nav:['Areas of support','My approach','About me','My services','Contact ↗'],header:'Discuss your situation',
-    title:'Your private medical guidance in Germany',
+    title:'Your private medical<br>guidance in Germany',
     lead:'Independent guidance based on your needs.<br>Help finding the right specialists and arranging medical care in Germany, with one person to turn to throughout the process.',
     help:'How can I help you?',ask:'Ask me on WA ↗',
     inquiries:'Common reasons for help',inquiriesTag:'01 / Areas of support',

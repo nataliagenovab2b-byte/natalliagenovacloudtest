@@ -24,7 +24,7 @@ if (language === 'en') {
   ]);
   if (document.body.dataset.page === 'home') {
     document.title = 'Natallia Genova — Your private medical guidance in Germany';
-    set('#hero-title', 'Your private medical guidance in Germany');
+    set('#hero-title', 'Your private medical<br>guidance in Germany', true);
     set('.hero-copy > p', 'Independent guidance based on your needs. Help finding the right specialists and arranging medical care in Germany, with one person to turn to throughout the process.');
     setMany('.hero-copy .button, .contact .button', ['Ask me on WA ↗', 'Message on WhatsApp →']);
     setMany('main .eyebrow', ['01 / Areas of support','02 / My approach','04 / How I work','05 / About me','06 / Services','07 / Client stories','08 / Contact']);
