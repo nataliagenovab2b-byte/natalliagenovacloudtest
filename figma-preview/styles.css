@@ -141,3 +141,13 @@ p{font-size:17px;line-height:1.65;color:var(--muted)}
   .footer-brand img{width:140px;height:140px;flex:0 0 140px;object-fit:cover;object-position:center}
   .footer-brand strong{margin-top:0}
 }
+@media(min-width:901px){
+  .footer-brand{align-items:center}
+  .footer-brand img{width:150px;height:150px;flex:0 0 150px;object-fit:cover;object-position:center;transform:scale(1.55)}
+  .footer-brand strong{margin:0 0 14px}
+  .footer-brand span{display:block}
+  .footer-brand p{margin-top:14px}
+}
+@media(min-width:901px) and (max-width:1180px){
+  .footer-main{grid-template-columns:minmax(400px,1.8fr) repeat(3,minmax(0,1fr))}
+}
